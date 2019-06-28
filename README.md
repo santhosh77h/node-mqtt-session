@@ -7,7 +7,7 @@ mqtt-session
 
 > Both `Subscribe` and `Publish` should have QOS > 0
 
-> Connect should have `clean` false so broker won't create new session since the clientId is maintained same
+> Connect should have `clean` false so broker won't create new session on receonnect since the clientId is maintained same
 
 ## test
 
