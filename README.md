@@ -1,15 +1,15 @@
 mqtt-session
 =========
 
-`Implemnt persistent session between connected clients with respect to broker`.
+### Refer this blog [post](http://www.steves-internet-guide.com/mqtt-clean-sessions-example/)
 
-> To create persistent session we need to have same clientId.
+`Implemented persistent session between connected clients with respect to broker`.
 
-> Both `Subscribe` and `Publish` should have QOS > 0
+#### To create persistent session we need to have same clientId.
+#### Both `Subscribe` and `Publish` should have QOS > 0
+#### Connect should have `clean` false so broker won't create new session on receonnect since the clientId is maintained same
 
-> Connect should have `clean` false so broker won't create new session on receonnect since the clientId is maintained same
-
-## test
+## Testing
 
 Follow these steps for testing session.
 
